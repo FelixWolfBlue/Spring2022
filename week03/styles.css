@@ -7,7 +7,7 @@ body{
     margin:30px;
     background-image:url(images/page-bg.gif);
     background-repeat: no-repeat;
-    /*background-position: center;*/ /*USE FIXED POSITIONING*/
+    background-position: center;
     background-color: calc(#F7F3DE);
     
 }
