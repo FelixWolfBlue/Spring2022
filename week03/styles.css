@@ -6,6 +6,8 @@ body{
     line-height:140%;
     margin:30px;
     background-image:url(images/page-bg.gif);
-
+    background-repeat: no-repeat;
+    /*background-position: center;*/ /*USE FIXED POSITIONING*/
+    background-color: calc(#F7F3DE);
     
 }
