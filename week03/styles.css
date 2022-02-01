@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
     background-color: #F7F3DE;
 }
-h1{
+header h1{
     font-size: 350%;
     color: #7C1A00;
     padding: 40px 40px 40px 120px;
@@ -26,4 +26,5 @@ h1{
 nav{
     float: left;
     width: 150px;
+
 }
