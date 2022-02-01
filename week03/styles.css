@@ -18,3 +18,14 @@ h1{
     background-repeat: no-repeat;
     background-position: top left;
 }
+
+#container {
+
+margin-bottom: 30px;
+
+}
+
+nav{
+    float: left;
+    width: 150px;
+}
