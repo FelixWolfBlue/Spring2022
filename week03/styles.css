@@ -10,3 +10,12 @@ body{
     background-attachment: fixed;
     background-color: #F7F3DE;
 }
+h1{
+    font-size: 350%;
+    color: #7C1A00;
+    padding: 40px;
+    padding-left: 120px;
+    background-image: url(images/header-image-1.gif);
+    
+
+}
