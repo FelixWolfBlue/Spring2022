@@ -5,7 +5,7 @@ body{
     color:black;
     line-height:140%;
     margin:30px;
-    background-image:url(images/page-bg.gif);
+    background-image:url(https://felixwolfblue.github.io/Spring2022/week03/images/page-bg.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #F7F3DE;
@@ -14,9 +14,9 @@ header h1{
     font-size: 350%;
     color: #7C1A00;
     padding: 40px 40px 40px 120px;
-    background-image:url(images/header-image-1.gif);
+    background-image:url(https://felixwolfblue.github.io/Spring2022/week03/images/header-image-1.gif);
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top left; 
 }
 
 #container{
@@ -26,5 +26,74 @@ header h1{
 nav{
     float: left;
     width: 150px;
+}
 
+ nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	color: #7C1A00;
+}
+
+nav li {
+	margin: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7C1A00;
+	background-color: #FFE597;
+}
+
+nav a {
+	color: white;
+	background-color: #8c9273;
+	padding: 3px 60px 3px 3px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #7C1A00;
+}
+
+#content {
+	background-image: url(https://felixwolfblue.github.io/Spring2022/week03/images/trans-bg.gif);
+	border: 1px #CCCCCC solid;
+	margin-left: 180px;
+	padding: 10px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer li {
+	display: inline;
+	padding: 10px;
+}
+
+h1{
+	color: #8c9273;
+}
+h2{
+	border-left: 20px solid #8c9273;
+	border-bottom: 5px solid #8c9273;
+	padding-left: 5px;
+}
+h3{
+	background-image: url(https://felixwolfblue.github.io/Spring2022/week03/images/header-star-1.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+blockquote{
+	background-color: #ffe597;
+}
+ul{
+	list-style-type: square;
+}
+a {
+	color: #7c1a00;
+	font-weight: bold;
+}
+a:hover{
+	background-color: #ffe597;
 }
