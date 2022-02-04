@@ -6,18 +6,22 @@ body{
     background-color: aquamarine;
 }
 
-
-
-a{
-    background-image: url(nyancat.gif);
-    background-size:45px;
-    background-repeat: no-repeat;
-    padding-left: 50px;
+div{
+    position:relative;
+    
 }
 
+li{
+    text-align: center;
+    list-style: inside;
+    list-style-type: decimal;
+}   
 
 h1{
     text-align: center;
     font-family: Arial;
 
+}
+hr{
+    background-color: purple;
 }
