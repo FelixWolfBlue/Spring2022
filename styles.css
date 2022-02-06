@@ -6,22 +6,68 @@ body{
     background-color: aquamarine;
 }
 
-div{
-    position:relative;
-    
+.toDo{
+    display:inline-flex;
+    width:60%;
 }
-
-li{
+.nyanCatWebClass{
     text-align: center;
     list-style: inside;
     list-style-type: decimal;
-}   
+    padding-left: 10px;
+}
+.challengesLi{
+    padding-bottom: 4px;
+}
 
 h1{
     text-align: center;
     font-family: Arial;
-
 }
+
 hr{
     background-color: purple;
+}
+.assignmentsHeader{
+    margin-bottom: 5px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+nav{
+    display:inline-block;
+    text-align: center;
+    border: 4px darkgreen solid;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left:10%;
+    padding-right:10%;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+
+
+.challengesList{
+    font-size: 18px;
+    padding-left:10px;
+}
+.completedChallenge{
+    text-decoration-line: line-through;
+}
+
+.testClassParagraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.box{
+    height: 100px;
+    width: 80%;
+    padding: 20px;
+    margin: 10%;
+    border: 5px solid black;
+    background-color: red;
+    font-size: 24px;
+    text-align: justify;
 }
