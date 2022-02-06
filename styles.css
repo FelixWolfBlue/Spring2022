@@ -28,7 +28,7 @@ h1{
 hr{
     background-color: purple;
 }
-#assignmentsHeader{
+.assignmentsHeader{
     margin-bottom: 5px;
     text-decoration-line: underline;
     text-align: center;
