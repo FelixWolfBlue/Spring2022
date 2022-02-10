@@ -81,6 +81,13 @@ p{
     padding-bottom: 1em;
 }
 
+.ending{
+    text-align: center;
+}
+.ending p{
+    text-align: center;
+}
+
 footer{
     text-align: center;
 }
