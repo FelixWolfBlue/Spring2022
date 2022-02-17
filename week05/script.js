@@ -1,2 +1,2 @@
 
-document.getElementById("button").innerHTML="Test";
+document.getElementById("button").innerText="Test";
