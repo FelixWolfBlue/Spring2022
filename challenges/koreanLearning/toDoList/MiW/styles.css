@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+/* didact-gothic-regular - latin */
+@font-face {
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/didact-gothic-v18-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("/fonts/didact-gothic-v18-latin-regular.woff") format("woff"); /*Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+*/
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color:rgb(214, 214, 214);
+}
+html, body{
+    margin:0;
+    padding:0;
+    background-color: rgb(109, 50, 159);
+}
+
+.nav ul{
+    margin:0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.mainNav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid lightgray;
+}
+
+.mainNav li{
+    padding: 0 5%;
+}
+
+.mainHeader{
+    background-color: rgba(0,0,0,0.6);
+    background-image: url(images/headerBG.jfif);
+    background-size:cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.bandName{
+    text-align: center;
+    margin:0;
+    font-size:4em;
+    font-family: 'Didact Gothic';
+    font-weight: normal;
+}
+
+.bandNameLarge{
+    font-size: 8em;
+}
+.contentSection{
+    margin:1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.sectionHeader{
+    color:#333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.aboutBandImage{
+    float:left;
+    margin: 15px;
+    border-radius: 50%;
+}
+ 
+.mainFooter{
+    background-color: #3a3a3a;
+    color:white;
+    padding: .25em 0;
+    width: 100%;
+}
+
+.mainFooterContainer{
+    display:flex;
+    align-items: center;
+}
+.mainFooterContainer ul{
+    flex-grow:1;
+    text-align: center;
+}
+.footerNav li{
+    padding: 0 .5em;
+}
+.footerNav img{
+    width: 50px;
+    height: 50px;
+}
