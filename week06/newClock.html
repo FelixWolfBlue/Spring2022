@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Javascript Clock 2.0</title>
+    <script>
+        function updateTime(){
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            if(minutes<10){
+                minutes='0'+minutes;
+            }
+            if(seconds<10){
+                seconds='0'+seconds;
+            }
+            if(hours>=12 && hours <24){
+                var timeOfDay = 'pm';
+            } else{
+                var timeOfDay = 'am';
+            }
+
+            if(hours>12){
+                hours-=12;
+            }
+
+            var currentTime = hours+":"+minutes+":"+seconds + " " + timeOfDay;
+
+            var myClock = document.getElementById('clock');
+
+            myClock.innerHTML=currentTime;
+        }
+
+    </script>
+    <style>
+        div#clock{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 6em;
+            text-align: center;
+            margin-top: 10%;
+            padding:1%;
+            border: 0.25em gold solid;
+        }
+        *{
+            background-color: forestgreen;
+        }
+    </style>
+  </head>
+  <body onload="setInterval('updateTime()', 1000)">
+    <div id="clock"></div>
+  </body>
+</html>
