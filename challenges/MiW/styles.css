@@ -112,3 +112,106 @@ html, body{
     width: 50px;
     height: 50px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.btnHeader{
+    margin: 0.5em 15% 2em 15%;
+    color:white;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size:1.5em;
+    font-weight: lighter;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+.btnHeader{
+    background-color: rgba(255, 255, 255, .3);
+}
+.btnPlay{
+    display:block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tourRow{
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tourRow:last-child{
+    border: none;
+}
+.tourItem{
+    display: inline-block;
+    padding-right: .5em;   
+}
+.tourDate{
+    color:whitesmoke;
+    width:11%;
+}
+.tourCity{
+    width:24%;
+}
+.tourArena{
+    padding-right: 1em;
+    width:42%;
+}
+.tourBtn{
+    max-width: 19%;
+    float:right;
+    margin-right:1em;
+    
+}
+.btnPrimary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btnPrimary:hover {
+    background-color: #2D9CDB;
+}
+.shopItem{
+    margin:30px;
+
+}
+.shopItemTitle{
+    display:block;
+    width:100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.shopItemImage{
+    height:250px;
+}
+.shopItemDetails{
+    display:flex;
+    align-items: center;
+    padding:5px;
+}
+.shopItemPrice{
+    flex-grow:1;
+    font-size:1.25em;
+}
+.shopItems{
+    display:flex;
+    flex-wrap:wrap;
+}
+.tourMap{
+    width:100%;
+    height:200%;    
+}

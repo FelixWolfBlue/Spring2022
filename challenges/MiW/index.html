@@ -6,8 +6,8 @@
       <link href="styles.css" rel="stylesheet" type="text/css" />
    </head>
 <body>
-<header>
-   <nav>
+<header class="mainHeader">
+   <nav class="nav mainNav">
       <ul>
          <li><a href=index.html>HOME</a></li>
          <li><a href="store.html">STORE</a></li>
@@ -15,61 +15,66 @@
       </ul>
    </nav>
 </header>
-jsdfka
-<!--Don't forget the bg img.-->>
-<button type="button">Get our latest album.</button>
-<br>
-<br>
-<button type="button">&#9658;</button>
-<section>
-   <h2>TOURS</h2>
+<h1 class="bandName">Motionless In White</h1>
+<div class="container">
+<button type="button" class="btn btnHeader">Get our latest album.</button></div>
+<button type="button" class="btn btnHeader btnPlay">&#9658;</button>
+<section class="contentSection container">
+   <h2 class="sectionHeader">TOURS</h2>
+   <div class="tourRow">
+      <strong class="tourItem">Your nearest tour location is: </strong>
+      <div>
+      <strong class="tourItem tourDate"> JUL 12</strong>
+      <span class="tourItem tourCity">Dallas, TX</span>
+      <span class="touritem tourArena">AMERICAN AIRLINES CENTER</span>
+      <button type="button " class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button></div>
+      <iframe class="tourMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.0378134603875!2d-96.8118962136837!3d32.79125662723854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e992f5ccee5af%3A0x21611d4f28860fa3!2sAmerican%20Airlines%20Center!5e0!3m2!1sen!2sus!4v1646861895460!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+   </div>
    <div>
-      <div>
-         <strong> JUL 16</strong>
-         <span>DETROIT, MI</span>
-         <span>DTE ENERGY MUSIC THEATRE</span>
-         <button type="button">BUY TICKETS</button>
-         <hr>
+      <div class="tourRow">
+         <strong class="tourItem tourDate"> JUL 14</strong>
+         <span class="tourItem tourCity">Chicago, IL</span>
+         <span class="touritem tourArena">MONSTERS STADIUM</span>
+         <button type="button " class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button>
       </div>
-      <div>
-         <strong> JUL 16</strong>
-         <span>DETROIT, MI</span>
-         <span>DTE ENERGY MUSIC THEATRE</span>
-         <button type="button">BUY TICKETS</button>
-         <hr>
+      <div class="tourRow">
+         <strong class="tourItem tourDate"> JUL 16</strong>
+         <span class="tourItem tourCity">DETROIT, MI</span>
+         <span class="touritem tourArena">DTE ENERGY MUSIC THEATRE</span>
+         <button type="button" class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button>
       </div>
-      <div>
-         <strong> JUL 19</strong>
-         <span>TORONTO, ON</span>
-         <span>BUDWEISER STATE</span>
-         <button type="button">BUY TICKETS</button>
-         <hr>
+      <div class="tourRow">
+         <strong class="tourItem tourDate"> JUL 19</strong>
+         <span class="tourItem tourCity">TORONTO, ON</span>
+         <span class="touritem tourArena">BUDWEISER STATE</span>
+         <button type="button" class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button>
       </div>
-      <div>
-         <strong> JUL 30</strong>
-         <span>NEW YORK CITY, NY</span>
-         <span>GORDON AMPITHEATRE</span>
-         <button type="button">BUY TICKETS</button>
-         <hr>
+      <div class="tourRow">
+         <strong class="tourItem tourDate"> JUL 30</strong>
+         <span class="tourItem tourCity">NEW YORK CITY, NY</span>
+         <span class="touritem tourArena">GORDON AMPITHEATRE</span>
+         <button type="button" class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button>
       </div>
-      <div>
-         <strong> AUG 2</strong>
-         <span>JERSEY CITY, NJ</span>
-         <span>GOTH METALHEADS INC</span>
-         <button type="button">BUY TICKETS</button>
+      <div class="tourRow">
+         <strong class="tourItem tourDate"> AUG 2</strong>
+         <span class="tourItem tourCity">JERSEY CITY, NJ</span>
+         <span class="touritem tourArena">GOTH METALHEADS INC</span>
+         <button type="button" class="btn tourItem tourBtn btnPrimary">BUY TICKETS</button>
       </div>
    </div>
 </section>
-<footer>
-   <h3>Motionless in White</h3>
-   <ul>
-      <li><a href="https://www.youtube.com/channel/UC5MWh1k90KULpPOeXAzoIZA?feature=gws_kp_artist&feature=gws_kp_artist">
-         <img src="images/ytLogo.png"></a></li>
-      <li> <a href="https://open.spotify.com/artist/6MwPCCR936cYfM1dLsGVnl?autoplay=true">
-         <img src="images/spotifyLogo.png"></a></li>
-      <li><a href="https://www.facebook.com/motionlessinwhite">
-         <img src="images/fbLogo.png"></a></li>
-   </ul>
-</footer>
+<div class="container mainFooterContainer">
+   <footer class="mainFooter">
+      <h3 class="bandName">Motionless in White</h3>
+      <ul class="nav footerNav">
+         <li><a href="https://www.youtube.com/channel/UC5MWh1k90KULpPOeXAzoIZA?feature=gws_kp_artist&feature=gws_kp_artist">
+            <img src="images/ytLogo.png"></a></li>
+         <li> <a href="https://open.spotify.com/artist/6MwPCCR936cYfM1dLsGVnl?autoplay=true">
+            <img src="images/spotifyLogo.png"></a></li>
+         <li><a href="https://www.facebook.com/motionlessinwhite">
+            <img src="images/fbLogo.png"></a></li>
+      </ul>
+   </footer>
+</div>
 </body>
 </html>
